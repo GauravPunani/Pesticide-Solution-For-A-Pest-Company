@@ -1,0 +1,11 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.209",
+        "google/apiclient": "^2.0",
+        "microsoft/bingads": "v0.13.0.6",
+        "googleads/googleads-php-lib": "^55.0",
+        "mpdf/mpdf": "^8.0",
+        "mikehaertl/php-pdftk": "^0.11.0",
+        "sendgrid/sendgrid": "^7.11",
+        "twilio/sdk": "^6.34"    }
+}

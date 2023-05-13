@@ -1,0 +1,977 @@
+/*
+Theme Name: Gam Exterminating Services 
+Theme URI: https://www.gamexterminatingservices.com/
+Description: Gam Exterminating Services
+Author: Gam
+Tags: Gam Exterminating Servies 
+*/
+
+#top-header {
+	background-color: #272223;
+}
+p{
+    text-align:justify;
+}
+
+header nav{
+background-color: #003869;
+}
+
+#testimonial {
+    padding: 50px 0;
+    background: #003869;
+    color: #fff;
+}
+
+header #top-header .social-list .social {
+    background: #003869;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+
+#services ul li a {
+    color: #003869;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+
+#services .other-pets {
+    clear: both;
+    font-style: italic;
+    color: #00386A;
+    text-align: center;
+}
+
+#welcome h2 {
+    color: #003869;
+}
+
+#quote h2 {
+    font-size: 38px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #003869;
+    margin: 0;
+}
+
+#quote p.green {
+    font-size: 28px;
+    color: #003869;
+    text-transform: uppercase;
+}
+
+#quote h3 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #003869;
+    margin: 0;
+}
+
+footer #footer-top {
+    padding: 50px 0;
+    background: #272223;
+    color: transparent;
+    font-size: 13px;
+    line-height: 20px;
+    position: relative;
+    border-bottom: 1px solid #272223;
+}
+
+header nav:before, header nav:after {
+    display: block;
+    content: "";
+    border-top: 1px solid #003869;
+    width: 100%;
+}
+
+header {
+    display: block;
+    background-color: #272223;
+}
+
+header nav {
+    margin-top: 10px;
+    background: #003869;
+    border: 1px solid #003869;
+}
+
+header nav ul li ul.sub-menu {
+    display: none;
+    position: absolute;
+    margin-left: -10px;
+    background: #003869;
+    z-index: 99;
+    padding-bottom: 10px;
+}
+
+footer #footer-top:before {
+    display: block;
+    content: "";
+    border-top: #272223;
+    width: 100%;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+header #top-header #tagline {
+    margin-top: 20px;
+    font-weight: 700;
+    font-style: italic;
+    color: white;
+}
+
+header #top-header .contact p {
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#content #single h1, #content #single h2, #content #single h3, #content #single h4, #content #single h5, #content #single h6 {
+    margin-bottom: 30px;
+    font-weight: 800;
+    color: #003869;
+}
+
+aside .aside-service h5 {
+    padding: 20px 30px 0;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #003869;
+}
+
+aside .aside-testimonials {
+    padding: 20px 40px 40px;
+    background: #003869;
+    margin-top: 20px;
+    position: relative;
+    border-bottom: 1px solid #003869;
+    overflow: hidden;
+}
+
+#problem a {
+    color: #003869;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 800;
+}
+
+aside .aside-testimonials:before {
+    display: block;
+    content: "";
+    border-top: 1px solid #003869;
+    width: 100%;
+    position: absolute;
+    top: 1px;
+    left: 0;
+}
+
+#banner .form {
+    
+    background-size: 100% auto;
+    padding: 30px 60px 50px 40px;
+    width: 385px;
+    margin-top: -6px;
+    margin-left: -50px;
+}
+
+#services .owl-buttons .owl-prev {
+    float: left;
+    font-size: 30px;
+    color: #003869;
+    background: 0;
+}
+
+#services .owl-buttons .owl-next {
+    float: right;
+    font-size: 30px;
+    background: 0;
+    color: #003869;
+}
+
+header nav ul li ul.sub-menu:after {
+    position: absolute;
+    bottom: 1px;
+    display: block;
+    content: "";
+    border-top: 1px solid #003869;
+    width: 100%;
+}
+
+header nav ul {
+    text-align: left;
+    margin: 0px;
+    padding: 0px;
+}
+div#mega-menu-wrap-header {
+    height: 55px;
+}
+#mega-menu-wrap-header #mega-menu-header > li.mega-menu-item > a.mega-menu-link {
+    height: 55px;
+}
+
+td > .quote_addmorebtn {
+    float: right;
+    margin-right: 4%;
+}
+.sub-menu{display: none;}
+nav ul li:hover > .sub-menu{display: block;}
+
+
+
+
+
+/***new css***/
+
+.quote_sheet_form input,.quote_sheet_form textarea{margin-bottom: 15px !important;
+    padding: 10px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+input.quote_addmorebtn {
+    width: auto;
+}
+
+.quote_sheet_form input[type="submit"] {
+    width: auto;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+.quote_textarea{padding: 13px;width:100%;}
+
+.wpcf7-form-control.wpcf7-text.wpcf7-validates-as-required {
+    width: 100%;
+}
+
+div#additionalService {
+    margin: 0 16px;
+}
+#buffalo_nyForm form {
+
+    margin-top: 30px;
+}
+
+#buffalo_nyForm .wpcf7-response-output.wpcf7-mail-sent-ok,#buffalo_nyForm div.wpcf7-response-output{
+    color:red;
+}
+
+#buffalo_nyForm input[type="submit"]{
+    margin-left: 35%;
+}
+
+/* 06 nov  */
+th.table-hd {
+    line-height: 14px;
+    padding: 11px 0px !important;
+}
+.col-60 {
+    width: 70%;
+}
+
+.col-30 {
+    width: 30%;
+}
+
+td.text.tx-2 {
+    margin-top: -32px;
+}
+
+.row{
+    margin-left:0px !important;
+}
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.col-50 {
+    float: left;
+    width: 48%;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.col-40 {
+ width: 31%;
+    margin-top: 6px;
+    margin-right: 10px;
+    display: inline-block;
+}
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+h2.bed_bug_title {
+    text-align: center !important;
+}
+ul.errors_list li {
+    color: black;
+    list-style: inherit !important;
+    margin: 15px;
+}
+.loader {
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 50%;
+    border-top: 3px solid white;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+ textarea#clientAddress,textarea.form-control {
+    max-width: 100%;
+}
+
+/* 10-03-22 */
+.disable-link{
+    pointer-events: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0;
+}
+input[type="number"] {
+   -moz-appearance: textfield;
+}
+
+/**Media Queries***/
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+   .col-50, .col-40{
+	   width:96% !important;
+   }
+   form#res-form button#sendform {
+    width: 100% !important;
+}
+
+
+  h2.form-head:before {
+	  display:none;
+  }
+  h2.form-head:after{
+	  display:none;
+  }
+  form#res-form {
+  width: 100% !important;
+    padding: 20px 19px !important;
+	}
+	th.table-hd {
+    line-height: 1;
+    padding: 14px 0px;
+}
+.col-60 {
+    width: 100%;
+}
+
+.col-30 {
+    width: 100%;
+}
+
+.form-group.last-dsc .line {
+    width: 99%;
+    display: block !important;
+}
+.col-30.c-name {
+    margin-top: 0;
+}
+td.text.tx-2 {
+    line-height: 18px;
+}
+td.text {
+    width: 27%;
+}
+
+
+}
+
+.last-dsc {
+    margin-top: 42px;
+}
+
+.form-group.last-dsc .row {
+    display: flex;
+}
+.c-name input {
+    border: 0;
+    box-shadow: none !important;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0;
+    padding-top: 11px;
+    background: transparent;
+}
+.chck-txt {
+    color: #8e8c8c;
+    font-size: 13px;
+    line-height: 0px;
+}
+form#res-form button#sendform {
+    padding: 13px 0px;
+    font-size: 26px;
+    width: 70%;
+	margin:0 auto;
+	
+}
+.col-60.c-name {
+    text-align: right;
+}
+.col-30.c-name {
+    margin-top: 25px;
+}
+.res-form {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #c5c5c599;
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+#content h2 {
+    padding: 10px 0px 35px;
+}
+h2.form-head:after {
+    content: '';
+    background: green;
+    height: 01px;
+    position: absolute;
+    z-index: 9999;
+    width: 74px;
+    margin-top: 38px;
+    left: 46%;
+}
+h2.form-head:before {
+    content: '';
+    background: green;
+    height: 01px;
+    position: absolute;
+    z-index: 9999;
+    width: 74px;
+    margin-top: 41px;
+    left: 48%;
+}
+.price-chart{
+	width:100%
+}
+th.table-hd {
+    font-size: 14px !important;
+    font-weight: 600;
+}
+table.price-chart tr td select, table.price-chart tr td input:focus, #res-form input:focus {
+    border: 0 !important;
+    box-shadow: 2px 0px 8px #dddbdb !important;
+}
+table.price-chart tr td select, table.price-chart tr td input {
+    width: 95%;
+    border: 0;
+    border-bottom: 1px solid #666;
+    border-radius: 0;
+    background: transparent;
+    box-shadow: none;
+}
+.other-license-data,.product-other-quantity {
+    display: none;
+}
+
+/* 11 nov  */
+
+a#reset_invoice_page {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.res-form .form-control.error{
+	color:#555;
+} 
+
+.res-form .error{
+	color:red;
+	font-size: 13px;
+}
+
+div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
+    color: #fff;
+	margin-top: 0;
+}
+
+#loc_rochester {
+    background-position: top;
+}
+
+.signsec{
+	margin:0 auto;
+}
+
+a.clear-canvas {
+    cursor: pointer;
+    text-decoration: underline;
+    float: left;
+    width: 100%;
+}
+
+.spcl-maint-section {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #c5c5c599;
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+
+.sigWrapper button,.sigWrapper button:hover,.sigWrapper button:focus,.sigWrapper button:active {
+    background: transparent;
+    border: none;
+    color: #337ab7;
+    text-decoration: underline;
+	font-size: 16px;
+	padding:0;
+	outline:0;
+}
+
+
+/* 18 nov  */
+
+form.maintenance-forms {
+    width: 70%;
+    margin: 0 auto;
+    border: 1px solid #c5c5c599;
+    background: #f1f1f1;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+form.maintenance-forms #sendform {
+    margin-top: 24px;
+    padding: 13px 0px;
+    font-size: 26px;
+    width: 25%;
+}
+
+@media only screen and (max-width: 320px) {
+    #banner .form{padding: 30px 0 50px; margin: 0; background-size: cover; max-width:320;margin-left: -25px;}
+}
+
+@media screen and (max-width: 600px) {
+
+    form.maintenance-forms{
+        width: 100% !important;
+        padding: 20px 19px !important;
+    }
+    
+}
+
+@media screen and (max-width: 767px)
+{
+h2.bed_bug_title {
+    font-size: 22px;
+}
+#content h2 {
+    padding: 10px 0px 0px !important;
+}
+h2.red_text_title span {
+    font-size: 26px;
+}
+h2.bed_bug_title {
+    padding-bottom: 0px !important;
+    font-size: 22px !important;
+}
+.testimage img {
+    margin-left: 0px;
+}  
+form.wpcf7-form {
+    padding: 40px 15px; 
+}
+section#quote {
+    padding: 0px;
+}
+h2.red_text_title { 
+    line-height: 24px;
+    padding-bottom: 0px !important;
+}
+h2.red_text_title span { 
+    font-size: 22px;
+}
+#quote {
+    padding: 0px 0;
+}
+#content #single h3 {
+    font-size: 20px;
+    margin-bottom: 8px !important;
+} 
+h2.testimonial_title {
+    font-size: 26px !important;
+}
+form.wpcf7-form input {
+    height: 38px;
+}
+header nav .contact p {
+    margin: 0px 0px 0px 0;
+}
+header nav .contact p .bigger {
+    font-size: 26px;
+}
+#content #single h1 {
+    font-size: 26px;
+}
+article h2 {
+    font-size: 26px !important; 
+}
+#quote h2 {
+    font-size: 26px;
+}
+#quote h3 {
+    font-size: 22px;
+}
+.call_now_btn .vc_btn3.vc_btn3-size-lg {
+    font-size: 14px;
+}
+} 
+ 
+@media only screen and (max-width: 768px) {
+
+    header nav ul li:hover ul.sub-menu{display: none;}
+    header nav ul li ul.sub-menu{position: relative; margin: 5px auto; }
+    ul.sub-menu ul.sub-menu{display: none;}
+    ul li ul.sub-menu{background-color: #cb0000;}
+    ul li ul.sub-menu a{font-size: 12px; color: #fff400;}
+
+.res-form{
+	width:100%;
+	padding:20px 15px;
+}
+
+.res-form h3 {
+    font-size: 18px !important;
+}
+
+button.btn.btn-primary.add-product {
+    white-space: normal;
+}
+
+#invoice_form .sign-pad {
+    width:100%;
+}
+
+.col-25, .col-75, input[type=submit] {
+    width: auto;
+}
+
+#technician_location_form .row {
+    margin-left: -15px !important;
+}
+.locationSection .loc-prov-header {
+    font-size: 25px !important;
+}
+.locationSection h2{padding:0 !important;
+}
+
+.locationSection{
+	background-attachment: fixed;
+}
+.creditCardForm {
+    padding: 20px 9px 0 0 !important;
+}
+
+a#reset_invoice_checkout {
+    padding-bottom: 21px !important;
+    float: left;
+    width: 100%;
+}
+.sign-pad {
+    width: 100%;
+}
+
+.spcl-maint-section {
+    width: 100% !important;
+    padding: 20px 19px !important;
+}
+}
+
+/* 10 dec  */
+
+.error {
+    color: red;
+    font-size: 15px;
+}
+
+.testimonial .testimonial-content p code {
+    font-family: open sans !important;
+}
+
+.quote-free-form textarea{
+    height: 150px;
+    width: 100%;
+	padding: 10px;
+    }
+	
+	h2.bed_bug_title {
+    padding-bottom: 0 !important;
+}
+
+.testimonial-inner {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px #003869;
+    border: none !important;
+}
+
+#content h2 {
+    padding: 10px 0px 10px !important;
+}
+
+
+/**13-April-20**/
+
+.quote-free-form {
+    background: #ccc;
+    padding: 18px;
+}
+.quote-free-form .btn {
+    background: #003869;
+    border-color: transparent;
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-top: 8px;
+    box-shadow: none;
+}
+
+.quote-form-main .vc_icon_element.vc_icon_element-outer.vc_icon_element-align-center {
+    border-top: 6px solid #4cadc9;
+}
+
+.quote-free-form .wpcf7-form-control.wpcf7-text {
+    padding: 20px 10px;
+}
+
+.quote-form-main  h4 span {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+.quote-form-main h4 {
+    margin-bottom: 0 !important;
+    background: #003869;
+    padding-bottom: 21px;
+}
+
+.quote-form-main .wpcf7-validation-errors {
+    color: red;
+    margin: 9px 0;
+    border-color: #4cadc9;
+}
+
+.quote-free-form .btn:hover{
+    top: 3px;
+    box-shadow: none;
+    background: #062f53;
+}
+
+
+/**07-May**/
+
+.service-gamex {
+    box-shadow: 0 0.25rem 0.75rem rgba(0,0,0,.15);
+    padding: 17px 0px !important;
+    margin: 0 13px;
+    width: 30%;
+}
+
+.service-gamex h3 span {
+    font-size: 21px;
+    font-weight: 600 !important;
+}
+
+.service-gamex p,.covid-how-works p{
+color: #7a7a7a;
+    font-family: "Roboto", Sans-serif;
+    font-weight: 400;
+	font-size:15px;
+	line-height: 25px;
+}
+
+
+.gamex-serv-head h2{
+	font-family:"Times New Roman", Sans-serif !important;
+	font-size: 30px;
+	font-weight:600 !important;;
+}
+
+.covid-how-works {
+    margin: 50px 0;
+}
+
+.covid-how-works h2{
+    margin-bottom: 20px !important;
+}
+
+.covid-help-btn a {
+    font-weight: 700;
+}
+
+.covid-help-left {
+    padding-left: 50px;
+}
+
+.covid-contact-form .wpb_wrapper {
+    background: #003869;
+}
+
+.covid-contact-form span {
+    padding-top: 17px;
+    display: block;  
+}
+
+/**8 may**/
+
+@media only screen and (max-width:767px){
+	
+.service-gamex {
+    width: 100%;
+    margin-bottom: 20px;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width: 1024px){
+	
+	.service-gamex {
+    margin: 0 10px;
+}
+}
+
+
+button#confirm-purchase img{
+    width:20px;
+}
+
+/* 30 oct 2020 */
+
+.notice{
+    background: #fff;
+    border: 1px solid #ccd0d4;
+    border-left-width: 4px;
+    box-shadow: 0 1px 1px rgba(0,0,0,.04);
+    margin: 5px 0px 2px;
+    padding: 1px 12px;
+}
+
+.notice p{
+    margin: .5em 0;
+    padding: 2px;
+    font-size: 13px;
+    line-height: 1.5;
+}
+
+.notice-error{
+    border-left-color: #dc3232;
+}
+
+.notice-success {
+    border-left-color: #46b450;
+}
+
+.notice-info {
+    border-left-color: #00a0d2;
+}
+
+.calendarEventBox__event {
+    padding: 10px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+}
+
+ul.static-dropdown.dropdown-menu.dropdown-menu-left {
+    position: inherit !important;
+}
+.custom-dropdown{
+    left: 0;
+    transform: translate(-100%);        
+}
+
+
+/* nov 10  */
+
+/* .elementor-shortcode form.wpcf7-form.init .quote-free-form {
+    background: #07bffb38;
+    border-radius: 6px;
+    margin-bottom: 14px;
+}
+.elementor-shortcode form.wpcf7-form.init .quote-free-form p {
+    margin-bottom: 0;
+} */
+
+/* .elementor-shortcode form.wpcf7-form.init .form-group input,.elementor-shortcode form.wpcf7-form.init .form-group textarea {
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    color: #fff;
+}
+
+.elementor-shortcode form.wpcf7-form.init .form-group input::placeholder,.elementor-shortcode form.wpcf7-form.init .form-group textarea::placeholder {
+    color: #fff;
+} */
+/* .elementor-shortcode form.wpcf7-form.init .quote-free-form .btn {
+    box-shadow: none !important;
+    border-radius: 0;
+} */
+#loc_honolulu{
+    background-image:url("https://gamexterminatingservices.com/wp-content/uploads/2021/07/630x355.jpg");
+    background-repeat:no-repeat;
+
+}
+#loc_atlanta{
+    background-image:url("https://gamexterminatingservices.com/wp-content/uploads/2021/07/photo-1473042904451-00171c69419d.jpg");
+    background-repeat:no-repeat;
+
+}
+
+#loc_hawaii{
+    background-image:url("https://gamexterminatingservices.com/wp-content/uploads/2021/07/honolulu-hawaii-wallpaper-1-scaled.jpg");
+    background-repeat:no-repeat;
+
+}
+
+.swal2-popup {
+    font-size: 1.6rem !important;
+}
+
+.mt-4{
+    margin-top: 40px;
+}

@@ -1,0 +1,226 @@
+/***25 nov,2019 **/
+body {
+    background-color: #f1f1f1 !important;
+}
+form.search_form {
+    float: left;
+    width: 100%;
+    padding: 10px 0px;
+    text-align: right;
+}
+
+button.button.button-primary.btn_download {
+    float: right;
+}
+
+
+.pagination_wrapper ul.pagination li {
+    display: inline-block;
+}
+
+.pagination_wrapper ul.pagination li a {
+    height: max-content;
+    font-size: 12px;
+    margin-right: 10px;
+    text-decoration: none; 
+    background-color: #0085ba;
+    border-radius: 50%;
+    line-height: 34px;
+    float: left;
+    width: 35px;
+    height: 35px; 
+    color: #fff;
+	padding:0px;
+} 
+.pagination_wrapper {
+    /* float: left; */
+    width: 100%;
+    text-align: center;
+    margin: 10px 0px 0px;
+}
+.pagination_wrapper ul.pagination {
+    padding: 10px 0px 0px;
+    margin: 0px;
+}
+table.gamex_table {
+    background-color: #eceaea;
+    border-spacing: 1px;
+}
+table.gamex_table {
+    border: 1px solid #ddd;
+}
+.pagination_wrapper ul.pagination li.disabled a {
+    pointer-events: none;
+    background-color: #ddd;
+}
+table.gamex_table th {
+    background-color: #0085ba;
+    color: #fff;
+    padding: 1px 2px;
+    font-size: 12px; 
+    height: 35px;
+	text-align:center;
+} 
+table.gamex_table {
+    background-color: #eceaea;
+}
+table.gamex_table tr td {
+    font-size: 13px;
+    padding: 6px 2px;
+	text-align:center;
+}
+a.view_report_btn {
+    background-color: #0085ba;
+    color: #fff;
+    text-decoration: none;
+    padding: 3px 6px;
+    border-radius: 3px;
+}
+a.view_report_btn:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.invoice_table_wrapper {
+    border: 1px solid #ddd;
+    width: 100%;
+    max-width: 500px;
+}
+table.invoice_table {
+    width: 100%;
+}
+table.invoice_table tr th {
+    text-align: left;
+    padding: 10px 10px;
+}
+tr.invoice_mid_tbl_tr th {
+    background-color: #a0a0a0;
+    color: #fff;
+}
+.top_wrapper {
+    float: left;
+    width: 100%;
+    padding: 0px 15px;
+}
+.invoice_table_wrapper h1 {
+    text-align: center;
+    background-color: #0080b5;
+    float: left;
+    width: 100%;
+    padding: 8px 0px;
+    margin: 0px;
+    font-size: 20px;
+    color: #fff;
+}
+.chemical-reports-form form.dwn_form {
+    width: 50%;
+    float: left;
+}
+
+.chemical-reports-form form.search_form {
+    float: right;
+    width: 50%;
+    padding: 10px;
+}
+.chemical-reports-form button.button.button-primary.btn_download.dwn_anl_report {
+    text-align: left;
+    float: left;
+} 
+.table-responsive {
+    float: left;
+	width: 100%;
+}
+.top_wrapper h1,.chemical-reports-form h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/* 19 dec  */
+
+table.invoice_table caption {
+    text-align: center;
+    font-weight: normal;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding: 6px 0px;
+    background-color: #0080b5;
+}
+
+.chemicalreportbtn {
+    float: left;
+}
+.card.calendar_events {
+    max-width: unset !important;
+}
+.loader {
+    margin: 0 auto;
+    border: 4px solid black;
+    border-radius: 50%;
+    border-top: 3px solid white;
+    width: 20px;
+    height: 20px;
+    -webkit-animation: spin 2s linear infinite; /* Safari */
+    animation: spin 2s linear infinite;
+  }
+  
+  /* Safari */
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  .cursor-pointer{
+      cursor: pointer;
+  }
+  
+/* 25 feb  */
+.card.full_width {
+    max-width: unset !important;
+}
+
+/* 14th april 2020  */
+
+form#nonrecurring_client_form h4 {
+    display: inline-block;
+}
+
+.year_selection {
+    cursor: pointer;
+}
+.year_selection:hover {
+    background: red;
+}
+
+/* 5/12/20 */
+
+.fixed-alert {
+    position: fixed;
+    right: 0;
+    width: 20%;
+    background: white;
+    padding: 10px;
+    bottom: 5%;
+}
+
+/* sep 8 2021  */
+ul.static-dropdown.dropdown-menu.dropdown-menu-left {
+    position: inherit !important;
+}
+.custom-dropdown{
+    left: 0;
+    transform: translate(-100%);        
+}
+
+/* jan 19 2022 */
+.pac-container {
+    z-index: 10000 !important;
+}
+
+.swal2-popup {
+    font-size: 1.6rem !important;
+}

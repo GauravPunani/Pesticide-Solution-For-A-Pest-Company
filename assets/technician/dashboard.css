@@ -1,0 +1,37 @@
+body {
+    background: #ececec !important;
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+}
+
+.col-md-3.sidebar__navigation {
+    border-color: white !important;
+}
+
+ul.nav.nav-pills.nav-stacked {
+    background-color: white !important;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.col-md-9.body__content {
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+ul.nav.nav-pills.nav-stacked li a {
+    font-weight: bold;
+    color: #272424;
+}
+
+li.active a {
+    background: #ebecf0 !important;
+    color: #0973ee !important;
+    font-weight: bold !important;
+}
+
+.res-form{
+    box-shadow: 2px 2px #ececec !important;
+    background: white !important;
+}
